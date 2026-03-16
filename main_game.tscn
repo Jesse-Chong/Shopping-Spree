@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cmxgpqm43nqgj"]
+
+[ext_resource type="Texture2D" uid="uid://cpv7mv7ufxjvc" path="res://sweet-cat-wallpaper-mural.webp" id="1_1oj5k"]
+
+[node name="MainGame" type="Node2D" unique_id=1570250955]
+
+[node name="Background" type="TextureRect" parent="." unique_id=707098960]
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 1152.0
+offset_bottom = 648.0
+grow_vertical = 2
+texture = ExtResource("1_1oj5k")
+expand_mode = 1
+
+[node name="Shelf" type="ColorRect" parent="." unique_id=822600251]
+offset_top = 450.0
+offset_right = 1152.0
+offset_bottom = 500.0
+color = Color(0.74509805, 0.3882353, 0, 1)

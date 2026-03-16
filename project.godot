@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="ShoppingSpree"
+run/main_scene="uid://cmxgpqm43nqgj"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="ignore"
 
 [physics]
 
